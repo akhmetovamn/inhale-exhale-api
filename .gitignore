@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.keras
+*.h5
+*.tflite
+.env
+.idea/
+*.log
+.DS_Store
