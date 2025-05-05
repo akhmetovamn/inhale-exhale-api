@@ -1,7 +1,7 @@
 __pycache__/
 *.py[cod]
-*.keras
-*.h5
+#*.keras
+#*.h5
 *.tflite
 .env
 .idea/
