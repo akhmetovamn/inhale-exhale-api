@@ -9,7 +9,7 @@ app = FastAPI()
 
 # Load the model (use .keras format for compatibility)
 
-model = tf.keras.models.load_model("inhale_exhale_classifier.keras")
+model = tf.keras.models.load_model("inhale_exhale_classifier.h5")
 
 # Define class names in the order your model predicts
 CLASS_NAMES = ["inhale", "exhale"]
